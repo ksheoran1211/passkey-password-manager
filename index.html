@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassKey - Your password manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PassKey</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>We're thrilled to have you join our secure and user-friendly password management platform. Your online safety and privacy are of utmost importance, and we're here to help you protect your valuable digital assets</p>
+        <h2>Your Passwords</h2>
+        <p class="alert">Your password has been copied!</p>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td>Google</td>
+                <td>ksheoran1211@gmail.com</td>
+                <td>Password123</td>
+                <td>Delete</td>
+            </tr>
+        </table>
+        <h2>Add A Password</h2>
+        <form action="/submit" method="post">
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" name="Username" required>
+            <br><br>
+            <label for="Password">Password:</label>
+            <input type="text" id="Password" name="Password" required>
+            <br>
+            <button class="btn" type="submit">Submit</button>
+             
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
